@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://pwstegman.kd.io/character%20recognition/ -->
+<html lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Icon Generator</title>
+    <style type="text/css">
+      canvas { border: 1px solid #000; }
+      @import url(http://fonts.googleapis.com/css?family=Lato);
+      body {
+      font-family: 'Lato', sans-serif;
+      }
+      </style>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="md5-min.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+    
+  </head>
+  
+  <body unselectable="on" align="center">
+   <h1>Icon Generator</h1>
+   <table align="center">
+   
+   <tbody>
+   
+   <tr>
+    
+    <td>
+    
+      <canvas id="canvas" width="480" height="480">
+      </canvas>
+      </td>
+      </tr>
+      </tbody>
+      </table>
+
+      <input type="text" id="gen" value="This is so cool!">
+      <p>Enter a string to be hashed.</p>
+      <p>Or</p>
+      <input type="button" onclick="genRandom()" value="Generate a random icon!">
+      <br>
+      <input type="button" id="sub" onclick="pngMe()" value="Open as PNG">
+
+
+    
+  
+  </body>
+</html>
