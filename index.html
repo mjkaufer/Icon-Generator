@@ -6,11 +6,14 @@
     <meta charset="utf-8">
     <title>Icon Generator</title>
     <style type="text/css">
-      canvas { border: 1px solid #000; }
+      canvas { border: 1px solid #000; float:left; margin-left:50px;}
       @import url(http://fonts.googleapis.com/css?family=Lato);
       body {
       font-family: 'Lato', sans-serif;
+      margin: 0;
+      font-size:1.5em;
       }
+
       </style>
 
     <script type="text/javascript" src="jquery.js"></script>
@@ -22,27 +25,18 @@
   
   <body unselectable="on" align="center">
    <h1>Icon Generator</h1>
-   <table align="center">
-   
-   <tbody>
-   
-   <tr>
-    
-    <td>
+
     
       <canvas id="canvas" width="480" height="480">
       </canvas>
-      </td>
-      </tr>
-      </tbody>
-      </table>
-
-      <input type="text" id="gen" value="This is so cool!">
-      <p>Enter a string to be hashed.</p>
-      <p>Or</p>
-      <input type="button" onclick="genRandom()" value="Generate a random icon!">
-      <br>
-      <input type="button" id="sub" onclick="pngMe()" value="Open as PNG">
+      <div id="stuff" style="vertical-align:middle;height:100%;">
+        <input type="text" id="gen" value="This is so cool!">
+        <p>Enter a string to be hashed.</p>
+        <p>Or</p>
+        <input type="button" onclick="genRandom()" value="Generate a random icon!">
+        <br>
+        <input type="button" id="sub" onclick="pngMe()" value="Open as PNG">
+      </div>
 
 
     
