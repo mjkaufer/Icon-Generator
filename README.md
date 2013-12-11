@@ -9,5 +9,7 @@ Stuff it can do
 ===============
 
 -Generates a super awesome icon based on any input
--Export said awesome icon to imgur
+
+-Export said awesome icon to Imgur
+
 -Entertain you, depending on your amusement threshold
