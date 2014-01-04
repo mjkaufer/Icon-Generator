@@ -16,7 +16,8 @@ $.ajax({
         Authorization: 'Client-ID ceb0613b2b28522'
     },
     data: {
-        image: img
+        image: img,
+        title: $('#gen').val()
     },
     dataType: 'json',
     success: function(response) {
