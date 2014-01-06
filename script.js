@@ -1,5 +1,4 @@
 
-
 function share(){
 try {
     var img = document.getElementById('canvas').toDataURL('image/png', 0.9).split(',')[1];
@@ -107,6 +106,7 @@ function pickColor(){
 function genRandom(){
 
     $('#gen').val(Math.random() * 10000);
+    console.log("Last value: " + $('#gen').val());
     updateListen();
 }
 
