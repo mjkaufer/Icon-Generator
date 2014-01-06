@@ -1,4 +1,3 @@
-
 function share(){
 try {
     var img = document.getElementById('canvas').toDataURL('image/png', 0.9).split(',')[1];
@@ -148,7 +147,7 @@ $(function(){
     canvas = document.getElementById('canvas');
     context = canvas.getContext('2d');
     context.strokeStyle = 'black';
-    $('#gen').val(Math.random() * 10000);
+    genRandom();
       hw = hex_md5($('#gen').val());
 
       ow = hw = "";    
